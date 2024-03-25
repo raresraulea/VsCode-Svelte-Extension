@@ -48,3 +48,4 @@ VSCode Extension APIs
     2. Exposes a callback endpoint where the token is received from the express API after successful authentication
     3. The callback endpoint stores the authentication token using a TokenManager
 15. Svelte sidebar fetch authenticated user details
+    1. Bidirectional Extension <-> Svelte Sidebar communication through PUB-SUB messages
